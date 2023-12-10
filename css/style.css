@@ -151,32 +151,40 @@ hr {
 	color: #333;
 	background: url(../img/intro-bg.jpg) no-repeat center top;
 	background-color: #e5e5e5;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
 	background-size: cover;
-	-o-background-size: cover;
-}
-.section-title.center {
+  }
+  
+  /* Logo */
+  .intro img {
+	width: 100px; /* Adjust the width as needed */
+	height: auto; /* Maintain aspect ratio */
+	margin-bottom: 20px; /* Add margin below the logo */
+	filter: grayscale(100%); /* Apply grayscale filter to make the logo black */
+  }
+  
+  .section-title.center {
 	padding: 10px 0 40px 0;
-}
-.intro h1 {
+  }
+  
+  .intro h1 {
 	font-size: 60px;
 	font-weight: 600;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 	color: #333;
-}
-.intro p {
+  }
+  
+  .intro p {
 	font-size: 20px;
 	margin-bottom: 40px;
 	margin-top: 20px;
-}
-header .intro-text {
+  }
+  
+  header .intro-text {
 	padding-top: 200px;
 	padding-bottom: 200px;
-}
-
+  }
 /* About Section */
 #about {
 	padding: 120px 0;
