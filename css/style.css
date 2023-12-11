@@ -333,7 +333,18 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
-
+/* Learnings Section */
+#learnings {
+  }
+  
+  #learnings p {
+	font-size: 18px; /* Adjust the font size as needed */
+  }
+  
+  #learnings h2 {
+	font-size: 24px; /* Adjust the font size as needed */
+  }
+  
 
 /* Contact Section */
 #contact {
